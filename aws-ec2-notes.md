@@ -21,3 +21,16 @@ EC2 → Instances → Running
 ## Important
 
 Always select correct region
+
+## Today I learned
+
+Earlier I struggled to create `.md` files from Git Bash.  
+Today I learned how to create and commit them.
+
+### Create .md file from Git Bash
+touch file.md
+
+### Commit from Git Bash
+git add file.md
+git commit -m "message"
+git push
