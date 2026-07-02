@@ -51,3 +51,19 @@ Transition into DevOps Engineer role
 ---
 
 ⭐ System Administrator → DevOps Engineer
+
+Day 17: Practice Linux basic commands, file operations, permissions, and process management
+
+- Practiced file and directory commands (ls, cd, pwd, mkdir, rm, cp, mv)
+- Worked with file viewing and creation commands (cat, less, head, tail, touch)
+- Learned text processing commands (sort, uniq, tee)
+- Practiced input/output redirection (>, >>) and pipes (|)
+- Revised basic file permissions using chmod and chown
+- Practiced process management commands (ps, top, kill)Day 17: Practice Linux basic commands, file operations, permissions, and process management
+
+- Practiced file and directory commands (ls, cd, pwd, mkdir, rm, cp, mv)
+- Worked with file viewing and creation commands (cat, less, head, tail, touch)
+- Learned text processing commands (sort, uniq, tee)
+- Practiced input/output redirection (>, >>) and pipes (|)
+- Revised basic file permissions using chmod and chown
+- Practiced process management commands (ps, top, kill)
