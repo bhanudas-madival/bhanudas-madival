@@ -67,3 +67,12 @@ Day 17: Practice Linux basic commands, file operations, permissions, and process
 - Practiced input/output redirection (>, >>) and pipes (|)
 - Revised basic file permissions using chmod and chown
 - Practiced process management commands (ps, top, kill)
+
+Day 18: Practice Linux disk, storage, mount, and log management basics
+
+- Practiced disk usage monitoring using df -h
+- Explored block devices using lsblk
+- Learned basic mount concepts and verified mounted filesystems
+- Explored the /var/log directory structure
+- Practiced reading and analyzing Linux log files
+- Revised disk and storage fundamentals through hands-on exercises
