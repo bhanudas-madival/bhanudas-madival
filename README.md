@@ -1,4 +1,4 @@
-# Bhanu | System Administrator → DevOps
+//# Bhanu | System Administrator → DevOps
 
 System Administrator with 9+ years of infrastructure experience, transitioning into DevOps.
 Focused on automation, Linux, cloud, and CI/CD.
@@ -76,3 +76,29 @@ Day 18: Practice Linux disk, storage, mount, and log management basics
 - Explored the /var/log directory structure
 - Practiced reading and analyzing Linux log files
 - Revised disk and storage fundamentals through hands-on exercises
+
+
+### ✅ Topics Covered
+
+* User management (`useradd`, `passwd`)
+* Group management (`groupadd`, `usermod -aG`)
+* Explored `/etc/passwd` and `/etc/shadow`
+* File permissions using `chmod` (numeric & symbolic)
+* File ownership using `chown`
+* Default permissions with `umask`
+* Special permissions:
+
+  * SUID
+  * SGID
+  * Sticky Bit
+* Practical: Created users/groups and tested file access restrictions and permissions
+
+### 💻 Hands-on
+
+* Created multiple users and groups
+* Added users to supplementary groups
+* Verified user account information
+* Modified file ownership and permissions
+* Tested permission inheritance with `umask`
+* Practiced SUID, SGID, and Sticky Bit behavior
+* Verified file access by different users
