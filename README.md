@@ -102,3 +102,31 @@ Day 18: Practice Linux disk, storage, mount, and log management basics
 * Tested permission inheritance with `umask`
 * Practiced SUID, SGID, and Sticky Bit behavior
 * Verified file access by different users
+
+2. Process Management & Debugging
+Practiced viewing running processes using ps and top.
+Learned to locate specific processes with pgrep.
+Practiced job control using jobs, bg, and fg.
+Managed processes using:
+kill (graceful termination)
+kill -9 (force termination)
+Studied Linux process states:
+Zombie process (Z)
+Uninterruptible sleep / stuck process (D state concept)
+Completed a hands-on lab by creating CPU load, identifying the resource-consuming process, and terminating it safely.
+🔴 3. Disk & Storage Troubleshooting
+Checked filesystem usage with df -h.
+Monitored inode usage using df -i.
+Identified large files and directories with du -sh *.
+Simulated a disk-full scenario and practiced troubleshooting and recovery.
+Practiced mount troubleshooting:
+Verified filesystems using mount -a.
+Reviewed and validated /etc/fstab.
+🎯 Skills Strengthened
+Process monitoring and troubleshooting
+Linux job control
+Safe process termination
+Understanding Linux process states
+Disk space and inode troubleshooting
+Filesystem mount diagnostics
+Practical Linux debugging techniques
