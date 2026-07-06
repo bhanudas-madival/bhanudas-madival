@@ -130,3 +130,27 @@ Understanding Linux process states
 Disk space and inode troubleshooting
 Filesystem mount diagnostics
 Practical Linux debugging techniques
+
+Linux – LVM (Snapshots Focus)
+Created LVM snapshots using lvcreate -s
+Listed logical volumes and snapshots using lvs
+Mounted an LVM snapshot and verified filesystem contents
+Verified that snapshot data remains unchanged after modifications to the original logical volume
+Practiced snapshot merge/restore to roll back the original volume
+Understood Copy-on-Write (CoW) behavior of LVM snapshots
+Learned what happens when snapshot storage becomes full and why adequate snapshot size is important
+Revised basic fdisk concepts and partition table management
+💻 Hands-on Practicals
+Created an LVM snapshot
+Mounted the snapshot and verified stored data
+Modified files on the original logical volume
+Compared original and snapshot contents
+Restored the original logical volume from the snapshot
+Verified successful rollback after merge
+Explored lvs output before and after snapshot operations
+💡 Key Learnings
+LVM snapshots capture the state of a logical volume at a specific point in time.
+Snapshots use Copy-on-Write (CoW), storing only changed blocks rather than duplicating the entire volume.
+If snapshot space becomes full, the snapshot becomes invalid and can no longer be used for recovery.
+Snapshot restore provides a fast rollback mechanism after accidental file changes or failed updates.
+Proper snapshot sizing is essential for reliable backup and recovery operations.
