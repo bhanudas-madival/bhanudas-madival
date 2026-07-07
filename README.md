@@ -154,3 +154,21 @@ Snapshots use Copy-on-Write (CoW), storing only changed blocks rather than dupli
 If snapshot space becomes full, the snapshot becomes invalid and can no longer be used for recovery.
 Snapshot restore provides a fast rollback mechanism after accidental file changes or failed updates.
 Proper snapshot sizing is essential for reliable backup and recovery operations.
+
+feat(linux): complete Logs & Debugging practicals
+
+- Explored the /var/log directory and common log files.
+- Used journalctl -xe to inspect recent system events and errors.
+- Viewed service-specific logs with journalctl -u ssh.
+- Practiced filtering logs using grep.
+- Analyzed logs based on timestamps/time ranges.
+- Learned to distinguish real errors from informational log messages.
+- Performed a troubleshooting lab by breaking a service, reading logs,
+  identifying the root cause, fixing the issue, and verifying recovery.
+
+Skills practiced:
+- Log analysis
+- Systemd journal navigation
+- Service troubleshooting
+- Root cause analysis
+- Linux debugging workflow
