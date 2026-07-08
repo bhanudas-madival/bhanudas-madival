@@ -172,3 +172,42 @@ Skills practiced:
 - Service troubleshooting
 - Root cause analysis
 - Linux debugging workflow
+
+Linux Package Management
+Commands Practiced
+apt update
+apt install
+apt remove
+Concepts Learned
+Package installation and removal
+Updating package lists from repositories
+Understanding package dependencies
+Practiced resolving package dependency issues
+✅ Linux Networking Basics
+Commands Practiced
+ip a — View network interfaces and IP addresses
+ss -tulnp — Display listening ports and associated processes
+netstat — Check network connections and ports
+ping — Test network connectivity
+curl — Test HTTP services and retrieve responses
+wget — Download files from remote servers
+Practical Exercise
+Started a service
+Verified the listening port using ss/netstat
+Confirmed service accessibility using curl
+🎯 Key Takeaways
+Learned the complete package management workflow using APT.
+Understood how package dependencies affect software installation.
+Gained confidence inspecting Linux networking configuration.
+Practiced verifying whether a service is running and reachable.
+Used networking tools commonly required during Linux and DevOps troubleshooting.
+🚀 DevOps Relevance
+
+Today's practice strengthened essential Linux administration skills required for:
+
+Server provisioning
+Package management
+Service verification
+Network troubleshooting
+Application health checks
+Production debugging
