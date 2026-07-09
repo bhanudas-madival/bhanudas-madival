@@ -211,3 +211,29 @@ Service verification
 Network troubleshooting
 Application health checks
 Production debugging
+
+## Linux Networking Basics Practice
+
+Completed hands-on practice with essential Linux networking commands.
+
+### Topics Covered
+- Checked network interfaces and IP addresses using `ip a`
+- Verified listening ports using `ss -tulnp`
+- Explored `netstat` for network connections
+- Tested network connectivity using:
+  - `ping`
+  - `curl`
+  - `wget`
+
+### Practical Exercise
+- Started a service
+- Verified the service was listening on the expected port
+- Tested the service using `curl`
+
+### Skills Gained
+- Inspecting network interfaces
+- Identifying listening services and ports
+- Verifying service availability
+- Basic troubleshooting of Linux network connectivity
+
+Part of my DevOps learning journey.
